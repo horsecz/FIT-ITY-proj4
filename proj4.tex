@@ -1,0 +1,67 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[a4paper, text={17cm, 24cm}, left={2cm}, top={3cm}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{times}
+\usepackage[unicode, breaklinks]{hyperref}
+\renewcommand{\uv}[1]{\quotedblbase #1\textquotedblleft}
+\urlstyle{same}
+
+\begin{document}
+
+%%
+%%  TITULNI STRANA
+%%
+\begin{titlepage}
+
+\begin{center}
+\LARGE
+\textsc{\Huge Vysoké učení technické v Brně}\\
+\textsc{\huge Fakulta informačních technologií}\\
+\vspace{\stretch{0.382}}
+Typografie a publikování\,--\,4. projekt\\[0.4em]
+{\Huge Citace publikací}
+\vspace{\stretch{0.618}}
+\end{center}
+{\Large \today \hfill Dominik Horký (xhorky32)}
+
+\end{titlepage}
+
+%%
+%%  VLASTNI TVORBA
+%%
+\section{Typografie}
+
+\subsection{Definice}
+Typografie je umělecko-technický obor zabývající se tiskovým písmem. V oblasti typografie se můžeme setkat s pojmy mikrotypografie a makrotypografie. Mikrotypografie se zabývá uměleckou tvorbou písma, zatímco makrotypografie se zabývá umístením písma na stránku, proporcemi titulků, textů, a podobně. V češtině ji nazýváme grafickou úpravou, viz \cite{WikiTypografie}.
+
+\subsection{Typografická pravidla}
+I pro typografii existují určitá pravidla, která bychom měli dodržovat. Text je potom lépe čitelný, lépe působí na~čtenáře a vypadá dobře. Tato pravidla bychom měli dodržovat obvlážť při psaní úředních dopisů nebo životopisů. Některá základní pravidla, která bychom měli dodržovat jsou například správná volba písma, mezislovní mezery či mezery u interpunkce, dělení slov, závorky, pomlčky, a další. Podrobnosti k takovýmto a~dalším pravidlům lze nalézt v \cite{TypoPravidla}.
+
+\subsection{Formáty materiálů použivaných v typografii}
+Nejčastěji používaným materiálem v typografii dnes je papír nebo elektronický formát (PDF). Rozlišujeme hrubé a konečné formáty, a také spoustu různých rozměrů. Každý z nás určitě zná formát A4, málokdo ale ví, že přesné rozměry formátu A4 jsou 210x297 mm nebo, že v Severní Americe se použivají formáty Legal a~Letter. Podrobné informace lze nalézt v \cite{TypoFormaty}.
+
+\subsection{Písmo}
+V typografii se často setkáváme s pojmem písmo. Je to psané vyjádření zvukové podoby jazyka, nejčastěji latinka, azbuka nebo arabské písmo. Font je pak soubor znaků abecedy graficky provedený stejným stylem. Mezi známé fonty řadíme například Times New Roman nebo Arial. Dále u písem rozlišujeme jejich proporcialitu, klasifikaci, velikost, apod. (viz \cite{BcMUNI}) \\
+
+\noindent Někteří lidé se fontům věnují, kupříkladu Nils Thomsen navrhnul nové typy fontů Pensum trilogy dle \cite{TypeMagPensum} nebo specialistka Dr. Shellyová, která vyučuje v USA grafický design a patří mezi zakladatele TypeCamp, kempů pro lidi, které zajímá typografie, design a písma, jak je uvedeno v \cite{PrintMagShelley}.
+
+\subsection{Responsive Web Design}
+Responsive Web Design (RWD) je populární internetový koncept uvedený zhruba před 5 lety. Jedná se o koncept způsobu stylování webových stránek tak, aby byly optimalizovány na všech různých zařízeních. Podstatnou součástí tohoto konceptu je také typografie viz \cite{RWDArticle}.
+
+\section{\LaTeX}
+\LaTeX\ je sázecí prostředí, které je rozšířením původního programu \TeX\ (viz \cite{LaTeXTutorials}). Jak je uvedeno v \cite{TypografickySystemTeX}, prvním \uv{programátorem} formátu pro \TeX\ byl jeho samotný autor Donald Knuth. Tento formát pak nazval plain (odtud říkáme plain \TeX). \\
+
+\noindent V \LaTeX u se většinou setkáváme se dvěma druhy sazeb, velmi často užívaná je sazba hladká. Ta obsahuje plynulý text, je sazbou jednoho typu a stupně písma a je určena šířka odstavce, jak je uvedeno v \cite{BcMarcela}.
+
+
+\newpage
+%%
+%%  LITERATURA (--> v .bib souboru)
+%%
+
+\renewcommand{\refname}{Literatura}
+\bibliographystyle{czechiso}
+\bibliography{proj4}
+
+\end{document}
